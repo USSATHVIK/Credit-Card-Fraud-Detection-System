@@ -1,0 +1,101 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.alert {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+/* Risk Level Styles */
+.risk-level {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Prediction Result Styles */
+.text-success.fw-bold {
+    color: #198754 !important;
+}
+
+.text-danger.fw-bold {
+    color: #dc3545 !important;
+}
+
+/* Card Animations */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Alert Styles */
+.alert-heading {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* Model Prediction Section */
+.model-prediction {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Confidence Score Bar */
+.confidence-bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    margin-top: 5px;
+}
+
+.confidence-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .row > div {
+        margin-bottom: 1rem;
+    }
+}
